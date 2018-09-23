@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="4dp">
+
+    <TextView
+        android:id="@+id/class_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Class Information"
+        android:textColor="#000000"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/class_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:ems="10"
+        android:hint="Class Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/class_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="108dp"
+        android:ems="10"
+        android:hint="Class Number"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addStu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="243dp"
+        android:layout_marginEnd="52dp"
+        android:text="Add Student" />
+
+    <Button
+        android:id="@+id/add_class"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="Add Class" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="172dp"
+        android:paddingLeft="4dp"
+        android:text="Students"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+
+    <ListView
+        android:id="@+id/student_list"
+        android:layout_width="181dp"
+        android:layout_height="356dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="92dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/border" />
+</RelativeLayout>
