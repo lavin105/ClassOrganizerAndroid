@@ -9,11 +9,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.os.Parcelable;
-import android.os.PersistableBundle;
-import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -23,8 +19,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 
 
 /*This class displays the classes information and allows the user to edit the class name and number as well as add students
@@ -34,7 +28,7 @@ import java.util.Comparator;
 
 public class Class_Info extends Activity {
     TextView theclass,theclassnumber;
-    Button toClassList, editCName, editCNumber, delete, newStu, sortStudent;
+    Button toClassList, editCName, editCNumber, delete, newStu;
     ListView students;
     ArrayAdapter<String> allStudents;
     String cName,cNumber;

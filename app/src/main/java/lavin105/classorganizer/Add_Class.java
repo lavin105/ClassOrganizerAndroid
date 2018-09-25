@@ -6,9 +6,7 @@ package lavin105.classorganizer;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -16,9 +14,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 
 
 /* This activity is where you specify the class name and number as well as have the ability to add students
@@ -26,9 +22,9 @@ import java.util.Arrays;
  * Students cannot be deleted in this activity but rather in the class info activity*/
 
 public class Add_Class extends Activity {
-    EditText studentName,className,classNumber;
+    EditText className,classNumber;
     Button addStudent, submit;
-    ListView studentList, classes;
+    ListView studentList;
     ArrayList<String> students, studentIDs;
     ArrayList<String> studentPics;
     ArrayAdapter<String> adapter;
