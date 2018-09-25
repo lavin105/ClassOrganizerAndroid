@@ -1,3 +1,7 @@
+/*Brandon Lavinsky
+ * lavin105@mail.chapman.edu
+ * Add_Class.java*/
+
 package lavin105.classorganizer;
 
 import android.app.Activity;
@@ -15,6 +19,11 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+
+
+/* This activity is where you specify the class name and number as well as have the ability to add students
+ * If add students is selected you will be redirected to the add student activity where you will input the information
+ * Students cannot be deleted in this activity but rather in the class info activity*/
 
 public class Add_Class extends Activity {
     EditText studentName,className,classNumber;

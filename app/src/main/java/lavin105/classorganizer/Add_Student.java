@@ -1,3 +1,7 @@
+/*Brandon Lavinsky
+ * lavin105@mail.chapman.edu
+ * Add_Student.java*/
+
 package lavin105.classorganizer;
 
 import android.app.Activity;
@@ -16,6 +20,9 @@ import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;
 
+/*This class is where students can be added, a first name last name and id number along with a picture are available,
+ * by clicking add student it will direct you to either the add class activity or the class info
+ * activity depending in which activity you clicked on add student*/
 public class Add_Student extends Activity {
 
     Button cancel,add, takePhoto;

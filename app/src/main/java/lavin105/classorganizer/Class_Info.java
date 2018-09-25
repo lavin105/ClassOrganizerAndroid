@@ -1,3 +1,8 @@
+/*Brandon Lavinsky
+ * lavin105@mail.chapman.edu
+ * Class_Info.java*/
+
+
 package lavin105.classorganizer;
 
 import android.app.Activity;
@@ -20,6 +25,12 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+
+
+/*This class displays the classes information and allows the user to edit the class name and number as well as add students
+ * students can be deleted by clicking on the student in the list they are also able to be sorted alphabetically
+ * Classes can also be deleted from this page by clicking delete class,clicking add student from this page will allow you to add students
+ * to the list*/
 
 public class Class_Info extends Activity {
     TextView theclass,theclassnumber;

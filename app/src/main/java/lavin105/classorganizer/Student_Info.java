@@ -1,3 +1,7 @@
+/*Brandon Lavinsky
+ * lavin105@mail.chapman.edu
+ * Student_Info.java*/
+
 package lavin105.classorganizer;
 
 import android.app.Activity;
@@ -12,6 +16,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+/*This activity displays a students picture name and id and allows you delete the student, you can
+* also return to the class information activity from this activity*/
 
 public class Student_Info extends Activity {
 

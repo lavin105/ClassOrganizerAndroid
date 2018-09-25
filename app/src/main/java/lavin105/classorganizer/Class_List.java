@@ -1,3 +1,7 @@
+/*Brandon Lavinsky
+ * lavin105@mail.chapman.edu
+ * Class_List.java*/
+
 package lavin105.classorganizer;
 
 import android.app.Activity;
@@ -16,6 +20,11 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Collections;
+
+
+/*this class displays the list of classes as well as a button to add new classes
+an array adapter and array list is used to store and display classes into the listview
+If the user clicks on a class it will direct them to the Class info activity where they can interact with the class*/
 
 public class Class_List extends Activity {
     ListView classList;
