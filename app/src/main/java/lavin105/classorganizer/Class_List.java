@@ -112,7 +112,7 @@ public class Class_List extends Activity {
 
 
             }
-            if (resultCode==RESULT_CANCELED){
+            if (resultCode==RESULT_CANCELED && data!=null){
                 String pp = data.getStringExtra("deleteKey");
                 int delkey=Integer.parseInt(pp);
                 listOfClasses.remove(delkey);
